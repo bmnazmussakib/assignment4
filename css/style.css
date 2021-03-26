@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Header start */
+header{
+    padding: 10px 0;
+    border-bottom: 1px solid lightgray;
+    /* border: 1px solid red; */
+}
+
+.container {
+    /* border: 1px solid red; */
+    margin: 0 auto;
+    width: 90%;
+    overflow: hidden;
+}
+
+.logo {
+    float: left;
+    /* border: 1px solid green; */
+    width: 10%;
+}
+
+.logo img{
+    width: 100%;
+}
+
+.menu {
+    float: right;
+    /* border: 1px solid green; */
+    width: 50%;
+}
+
+.menu ul{
+    float: right;
+}
+
+.menu ul li{
+    list-style: none;
+    float: left;
+}
+
+.menu ul li a{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #0F2656; 
+    text-decoration: none;
+    padding: 0 20px;
+    display: inline-block;
+    text-transform: capitalize;
+}
+
+.menu ul li a:hover{}
+
+.menu ul li:last-child a{
+    padding-right: 0;
+}
+
+/* Header end */
+
+/* Banner start */
+.banner {
+    /* border: 10px solid green; */
+    padding: 50px 0;
+    
+}
+
+.container2 {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    /* border: 1px solid green; */
+    overflow: hidden;
+    
+}
+
+.b_content {
+}
+
+.b_content h1{
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #0F2656; 
+    text-decoration: none;
+    margin: 0 225px;
+    line-height: 50px;
+}
+
+.b_content h1 span{
+    color: #008AFF;
+}
+
+.b_content p{
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #0F2656; 
+    margin: 15px 80px;
+    line-height: 25px;
+}
+
+.b_img {
+    width: 60%;
+    margin: 0 auto;
+}
+
+.b_img img{
+    width: 100%;
+}
+/* Banner end */
+
+/* successful start */
+.success {
+}
+
+.s_content {
+    overflow: hidden;
+}
+
+.left {
+    /* border: 1px solid blue; */
+    width: 40%;
+    float: left;
+    text-align: right;
+    margin: 10px 0px 0px 60px;
+}
+
+.left h2{
+    margin: 10px 0;
+    font-family: sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    color: #F15767; 
+}
+
+.left p{
+    margin: 10px 0;
+    font-family: sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: #0F2656;
+    line-height: 20px;
+}
+
+.right {
+    /* border: 1px solid blue; */
+    width: 50%;
+    float: left;
+    text-align: left;
+    margin: 10px 0px 10px 20px;
+}
+
+.right h1{
+    margin: 10px 50px 0 0;
+    font-family: sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #0F2656; 
+}
+/* successful end */
