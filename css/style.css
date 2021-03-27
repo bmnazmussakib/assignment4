@@ -3,10 +3,16 @@
     padding: 0;
 }
 
+/* Common start */
+section{
+    margin: 40px 0;
+}
+/* Common end */
+
 /* Header start */
 header{
     padding: 10px 0;
-    border-bottom: 1px solid lightgray;
+    /* border-bottom: 1px solid lightgray; */
     /* border: 1px solid red; */
 }
 
@@ -48,18 +54,21 @@ header{
     font-weight: 300;
     color: #0F2656; 
     text-decoration: none;
-    padding: 0 20px;
+    padding: 20px 20px;
     display: inline-block;
     text-transform: capitalize;
 }
 
-.menu ul li a:hover{}
+.menu ul li a:hover{
+    border-bottom: 1px solid #008AFF;
+}
 
 .menu ul li:last-child a{
     padding-right: 0;
 }
 
 /* Header end */
+
 
 /* Banner start */
 .banner {
@@ -113,6 +122,7 @@ header{
 }
 /* Banner end */
 
+
 /* successful start */
 .success {
 }
@@ -162,3 +172,89 @@ header{
     color: #0F2656; 
 }
 /* successful end */
+
+/* Card start */
+.all-card {
+    
+}
+
+.container2 {
+}
+
+.c_content {
+    
+}
+
+.card {
+    /* border: 1px solid purple; */
+    width: 25%;
+    float: left;
+    margin: 20px 0px 20px 40px;
+    font-family: sans-serif;
+    height: 320px;
+    padding: 30px 0px 0 20px;
+}
+
+.card img{
+    width: 100%;
+}
+
+.card1{
+    background-color: #FDEBED;
+}
+
+.card2{
+    background-color: #EAF9F4;
+}
+
+.card3{
+    background-color: #FFF8E8;
+}
+
+.card1 .card-content{
+    margin-top: 60px;
+}
+
+.card2 .card-content{
+    margin-top: 32px;
+}
+
+.card3 .card-content{
+    margin-top: 22px;
+}
+
+.card-content{
+    padding: 0 0;
+    text-align: left;
+}
+
+.card-content h3{
+    padding-bottom: 10px;
+    color: #0F2656;
+}
+
+.card-content p{
+    color: #0F2656
+}
+/* Card end */
+
+/* Footer start*/
+footer{
+    
+}
+
+.f_content{
+    background-color: #008AFF;
+    text-align: center;
+    padding: 30px 0;
+    font-family: sans-serif;
+    color: #9ED2FF;
+}
+
+.company_name{
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 3px;
+    color: white;
+}
+/* Footer end */
